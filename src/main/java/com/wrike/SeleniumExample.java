@@ -48,8 +48,9 @@ public class SeleniumExample {
         } else {
             wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(config.getDriver().findElement(By.tagName("iframe"))));
         }
-        wait.until(ExpectedConditions.elementToBeClickable(By.className("RveJvd")));
-        config.getDriver().findElement(By.className("RveJvd")).click();
+        WebElement button = config.getDriver().findElement(By.className("RveJvd"));
+        wait.until(ExpectedConditions.elementToBeClickable(button));
+        button.click();
         config.getDriver().switchTo().defaultContent();
         return this.config.getDriver().getTitle();
     }

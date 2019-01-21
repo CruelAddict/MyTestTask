@@ -29,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wrike/SeleniumExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+            <state relative-caret-position="241">
+              <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -244,18 +244,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WrikeTest - 2019.01.18 at 02h 58m 34s.xml">
-      <configuration name="WrikeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WrikeTest - 2019.01.18 at 02h 59m 25s.xml">
-      <configuration name="WrikeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WrikeTest - 2019.01.18 at 03h 00m 07s.xml">
-      <configuration name="WrikeTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WrikeTest - 2019.01.18 at 03h 00m 57s.xml">
-      <configuration name="WrikeTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="WrikeTest - 2019.01.18 at 03h 02m 40s.xml">
       <configuration name="WrikeTest" configurationId="JUnit" />
     </history-entry>
@@ -274,6 +262,18 @@
     <history-entry file="WrikeTest - 2019.01.18 at 19h 40m 29s.xml">
       <configuration name="WrikeTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="WrikeTest - 2019.01.21 at 09h 48m 14s.xml">
+      <configuration name="WrikeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WrikeTest - 2019.01.21 at 09h 48m 57s.xml">
+      <configuration name="WrikeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WrikeTest - 2019.01.21 at 09h 49m 38s.xml">
+      <configuration name="WrikeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WrikeTest - 2019.01.21 at 10h 04m 34s.xml">
+      <configuration name="WrikeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="831" extended-state="6" />
@@ -288,7 +288,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43301758" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.43301758" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995309" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -357,8 +357,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wrike/SeleniumExample.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+        <state relative-caret-position="241">
+          <caret line="52" column="14" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
