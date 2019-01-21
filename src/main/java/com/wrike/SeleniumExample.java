@@ -48,6 +48,7 @@ public class SeleniumExample {
         } else {
             wait.until(ExpectedConditions.frameToBeAvailableAndSwitchToIt(config.getDriver().findElement(By.tagName("iframe"))));
         }
+        wait.until(ExpectedConditions.elementToBeClickable(By.className("RveJvd")));
         config.getDriver().findElement(By.className("RveJvd")).click();
         config.getDriver().switchTo().defaultContent();
         return this.config.getDriver().getTitle();
@@ -55,6 +56,8 @@ public class SeleniumExample {
 
     public boolean submitAnswers(){
         try {
+            WebDriverWait wait = new WebDriverWait(config.getDriver(),10);
+            wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Help us provide you the best possible experience:'])[1]/following::button[1]")));
             int random = (int)(Math.random());
             switch(random) {
                 case 0:
@@ -98,7 +101,7 @@ public class SeleniumExample {
             }
             config.getDriver().findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Other'])[1]/following::button[1]")).click();
             //we can be sure that the answers are submitted when the 'submit' button is invisible
-            WebDriverWait wait = new WebDriverWait(config.getDriver(), 10);
+            wait = new WebDriverWait(config.getDriver(), 10);
             wait.until(ExpectedConditions.invisibilityOfElementLocated(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Just looking'])[1]/following::button[6]")));
         } catch (TimeoutException e) {
             return false;
